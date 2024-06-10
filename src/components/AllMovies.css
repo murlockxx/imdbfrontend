@@ -1,0 +1,10 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 5 columns */
+    gap: 20px; /* Space between the grid items */
+    padding: 20px; /* Padding around the grid */
+}
+
+.movie-item {
+    /* Additional styling for each movie item if needed */
+}

@@ -1,0 +1,52 @@
+/* ActorDetails.css */
+.actor-details {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the default text color to white */
+    padding: 20px; /* Add padding for better spacing */
+    min-height: 100vh; /* Ensure the page takes full height of the viewport */
+}
+
+.actor-details h1, .actor-details h2 {
+    color: white; /* Ensure headings are also white */
+    margin-bottom: 20px; /* Add margin to headings */
+}
+
+.actor-details p {
+    margin-bottom: 10px; /* Add some margin below paragraphs */
+    color: white; /* Ensure paragraph text is white */
+}
+
+.actor-details img {
+    max-width: 100%; /* Ensure image doesn't overflow the container */
+    border-radius: 10px; /* Add rounded corners to the image */
+    margin-bottom: 20px; /* Add margin below the image */
+    width: 500px;
+    height: 700px;
+}
+
+.actor-info {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.actor-info .nickname {
+    font-style: italic; /* Italicize the nickname */
+    color: gray; /* Set a different color for the nickname */
+}
+
+.actor-info .bio {
+    margin-top: 20px; /* Add margin at the top of bio */
+    color: white; /* Ensure bio text is white */
+    text-align: center; /* Center-align the bio text */
+}
+
+.error-message {
+    color: red; /* Set error message color to red */
+    text-align: center; /* Center-align the error message */
+}
+
+.loading-message {
+    color: gray; /* Set loading message color to gray */
+    text-align: center; /* Center-align the loading message */
+}

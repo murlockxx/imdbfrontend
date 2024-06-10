@@ -1,0 +1,24 @@
+/* src/HomePage.css */
+.home-page {
+  display: flex; /* Established as a flex container */
+  flex-direction: column; /* Children aligned vertically */
+  justify-content: flex-start; /* Aligns content to the start, bringing items up */
+  align-items: center; /* Centers items horizontally */
+  color: #191919;
+  min-height: 100vh;
+  background-color: #191919; /* Example background color, adjust as needed */
+}
+
+.movie-part {
+  width: 100%;
+  max-width: 1600px;
+  margin: 10px auto 20px; /* Reduced top margin to bring it up */
+  padding: 20px;
+  box-sizing: border-box; /* Includes padding and border in the width and height */
+  order: 0; /* Higher order number if other contents should come after */
+}
+
+/* Example adjustments for other elements if needed */
+.other-section {
+  order: 1; /* Ensures this section comes after movie-part if it's sibling in .home-page */
+}

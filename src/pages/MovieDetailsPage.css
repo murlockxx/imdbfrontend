@@ -1,0 +1,46 @@
+/* MovieDetailsPage.css */
+.movie-details {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the default text color to white */
+}
+
+.movie-details h1, .trailer-link h3 {
+    color: white; /* Ensure headings are also white */
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: column; /* Adjusts the spacing to distribute space at the beginning and end only */
+    margin-top: 20px;
+    flex-direction: row; /* This ensures the contents are laid out horizontally */
+}
+
+.details-container img {
+    max-width: 50%;
+    margin-right: 0; /* Removes any default right margin from the image */
+    width: 500px;
+    height: 700px;
+}
+
+.details-container .trailer-link {
+    width: 45%;
+    text-align: center;
+    padding-left: 0; /* Removes any padding that might create space */
+}
+
+.trailer-link h3 {
+    margin-bottom: 10px;
+}
+
+.actors-list {
+    display: flex; /* Enables flexbox layout */
+    list-style: none; /* Removes bullet points from list */
+    padding: 0; /* Removes padding */
+    overflow-x: auto; /* Enables horizontal scrolling if too many items */
+    white-space: nowrap; /* Prevents wrapping of text to ensure items stay in one line */
+}
+
+.actors-list li {
+    margin-right: 20px; /* Adds space between actor names */
+}
